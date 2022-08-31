@@ -1,0 +1,27 @@
+* {
+	box-sizing:border-box;
+}
+
+.row {
+	background:green;
+}
+
+[class*=col-] {
+	background-color:blue;
+}
+
+.row, [class*=col-] {
+	padding:5px;
+	border: 1px solid white;
+	color:white
+}
+
+.relative{
+	position:relative;
+	background-color:green;
+	top: -75px;
+    left: 40px;
+	border: 1px solid black;
+	display:inline-block;
+}
+
